@@ -5,4 +5,8 @@ $('.editor').trumbowyg({
     // en codepen, simplemente pegaremos el contenido del SVG en la parte
     // del código HTML
 });
+function mensaje() {
+  alert($('.editor').trumbowyg('html')); // Obtienes el HTML generado
+}
+    
 });
