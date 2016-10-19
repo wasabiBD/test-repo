@@ -4,3 +4,4 @@ $('.editor').trumbowyg({
     // en codepen, simplemente pegaremos el contenido del SVG en la parte
     // del código HTML
 });
+$('#trumbowyg').trumbowyg('html'); // Obtienes el HTML generado
